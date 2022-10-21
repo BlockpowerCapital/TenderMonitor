@@ -83,7 +83,7 @@ public class StatusService {
         }
         try {
 
-            Document doc = Jsoup.connect(apiUrl + "blocks/latest")
+            Document doc = Jsoup.connect(apiUrl + "cosmos/base/tendermint/v1beta1/blocks/latest")
                     .header("Accept", "*/*")
                     .header("Accept-Encoding", "gzip, deflate")
                     .header("Accept-Language", "en-US;q=0.8,en;q=0.5,zh-CN,zh;q=0.3")
