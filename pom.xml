@@ -10,7 +10,7 @@
     </parent>
     <groupId>capital.blockpower</groupId>
     <artifactId>TenderMonitor</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-BETA</version>
     <name>TenderMonitor</name>
     <description>TenderMonitor</description>
     <properties>
